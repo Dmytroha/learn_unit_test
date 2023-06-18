@@ -4,10 +4,10 @@ import static java.lang.System.*;
 
 public class Main {
     public static void main(String[] args) {
-        out.println("Hello world!");
+        int sumResult;
         SumCalculator calculator = new SumCalculator();
-        calculator.sum(6);
-
+        sumResult=calculator.sum(10);
+        out.println(sumResult);
     }
 
 

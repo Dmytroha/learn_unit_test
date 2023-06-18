@@ -7,7 +7,11 @@ public class SumCalculator {
         if(n<1){
             throw new IllegalArgumentException();
         }
+        int result=0;
+        for(int i=n;i>=1;i--){
+            result += i;
+        }
 
-        return 1;
+        return result;
     }
 }
